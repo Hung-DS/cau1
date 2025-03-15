@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Dell</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        /* Header chứa 3 ảnh */
+        .header {
+            background-color: #3869f1;
+            padding: 10px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: auto;
+        }
+
+        /* Thanh điều hướng */
+        .nav {
+            background-color: #ff6600;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin: 15px;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        /* Bố cục chính (Sản phẩm + Tin tức) */
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 20px auto;
+            gap: 20px;
+        }
+
+        /* Khung chứa 6 sản phẩm */
+        .products-container {
+            width: 75%;
+            background-color: rgb(91, 218, 71);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product p {
+            font-size: 18px;
+            color: #ff6600;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Phần tin tức */
+        .news {
+            width: 25%;
+            background-color: #004d00;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .news h3 {
+            text-align: center;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        .news p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #004d00;
+            color: white;
+            text-align: left;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Phần đầu trang chứa 3 ảnh -->
+    <div class="header">
+        <div class="image-container">
+            <img src="lap.png" alt="Banner 1">
+            <img src="logo.png" alt="Banner 2">
+            <img src="pc.png" alt="Banner 3">
+        </div>
+    </div>
+
+    <!-- Thanh điều hướng -->
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Bố cục chính: Sản phẩm + Tin tức -->
+    <div class="container">
+        <!-- Khung chứa 6 sản phẩm -->
+        <div class="products-container">
+            <div class="products">
+                <div class="product">
+                    <img src="1.jpg" alt="Laptop 1">
+                    <p>Price: <del>900$</del> <strong>740$</strong></p>
+                </div>
+                <div class="product">
+                    <img src="2.jpg" alt="Laptop 2">
+                    <p>Price: <strong>900$</strong></p>
+                </div>
+                <div class="product">
+                    <img src="3.jpg" alt="Laptop 3">
+                    <p>Price: <del>960$</del> <strong>820$</strong></p>
+                </div>
+                <div class="product">
+                    <img src="4.jpeg" alt="Laptop 4">
+                    <p>Price: <del>900$</del> <strong>800$</strong></p>
+                </div>
+                <div class="product">
+                    <img src="5.png" alt="Laptop 5">
+                    <p>Price: <del>1000$</del> <strong>930$</strong></p>
+                </div>
+                <div class="product">
+                    <img src="6.jpg" alt="Laptop 6">
+                    <p>Price: <del>1100$</del> <strong>970$</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phần tin tức -->
+        <div class="news">
+            <h3>News Technology</h3>
+            <p><a href="https://vietnamnet.vn/samsung-galaxy-unpacked-2025-ra-mat-sieu-pham-galaxy-s25-ultra-2365810.html" target="_blank" style="color: white; text-decoration: underline;">Samsung Galaxy S25 Series Launch.</a></p>
+            <p><a href="https://cellphones.com.vn/sforum/nguyen-nhan-galaxy-note-7-phat-no" target="_blank" style="color: white; text-decoration: underline;">Samsung officially announced the cause of Galaxy Note 7 explosion</a></p>
+            <p><a href="https://dantri.com.vn/cong-nghe/gia-iphone-16-pro-max-tiep-tuc-giam-tai-viet-nam-20250303234447322.htm" target="_blank" style="color: white; text-decoration: underline;">iPhone 16 Series price continues to decrease in Vietnam</a></p>
+            <p><a href="https://vnexpress.net/pin-chua-silicon-niem-hy-vong-moi-cho-thiet-bi-di-dong-4709854.html" target="_blank" style="color: white; text-decoration: underline;">Silicon Batteries - New Hope for Mobile Devices</a></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Phone: 0349023707</p>
+        <p>About Dell</p>
+        <p>Laptop Dell photography</p>
+        <p>Dell in Business</p>
+        <p>Dell Inspiron</p>
+        <p>Dell Vostro Products</p>
+    </div>
+
+</body>
+</html>
